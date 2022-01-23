@@ -1,0 +1,175 @@
+
+.clearwarp{
+    clear: both;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: url("https://www.free-wallpapers.su/data/media/8800/big/gm8986.jpg");
+    background-attachment: fixed;
+    background-repeat: repeat-x;
+    overflow-x: hidden;
+}
+.main-header{
+    position: fixed;
+    width: 100%;
+    height: 72px;
+    background: rgb(18, 14, 39);
+    box-shadow: 0 0 10px;
+    z-index: 1;
+    margin: 0%
+}
+.menu-items{
+    display: inline-block;
+    position: relative;
+    top: 9.5px;
+    font-size: 20px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 15px;
+    text-transform: uppercase;
+    background: rgb(25, 20, 51) ;
+    color: rgb(216, 208, 238);
+}
+.menu-items:hover{
+    background: rgb(216, 208, 238);
+    color: rgb(25, 20, 51);
+}
+ion-icon {
+    float: left;
+    font-size: 20px;
+    margin-right: 5px;
+  }
+  
+.l{
+    position: relative;
+    float: left;
+    left: 25px;
+}
+.r{
+    position: relative;
+    float: right;
+    right: 30px;
+}
+.search-form{
+position: relative;
+top: -2px;
+}
+form.search-form input[type=text] {
+    position: relative;
+    right: 42px;
+    top: 16.5px;
+    padding: 10px;
+    font-size: 17px;
+    border-radius:15px left;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+}
+form.search-form button {
+    position: relative;
+    bottom: 25px;
+    right: 20px;
+    float: right;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; 
+    cursor: pointer;
+}
+.side-menu{
+    position: relative;
+    top: 100px;
+    width: 270px;
+    height: 350px;
+    border-radius: 15px;
+    background: rgb(18, 14, 39);
+    box-shadow: 0 0 10px;
+}
+.conteiner-side-menu{
+position: relative;
+}
+.side-menu-items{
+    position: relative;
+    top: 9.5px;
+    font-size: 15px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    background: rgb(25, 20, 51) ;
+    color: rgb(216, 208, 238);
+}
+.side-menu-items:hover{
+    background: rgb(216, 208, 238);
+    color: rgb(25, 20, 51);
+}
+.game-list{
+    position: relative;
+    top: -240px;
+    left: 320px;
+    width: 900px;
+    height: 1920px;
+    border-radius: 15px;
+    background: rgb(25, 20, 51);;
+    box-shadow: 0 0 10px;
+}
+.conteiner-game-list{
+    position: relative;
+    padding: 5px;
+    width: 900px;
+    height: 360px;
+    background: #ffffff;
+}
+.game{
+    position: relative;
+
+}
+.name{
+    position: relative;
+    font-weight:700;
+    width: 240px;
+    padding: 10px;
+    text-transform: uppercase;
+    float: right;
+    background: rgb(233, 227, 227);
+}
+.pay{
+    position: relative;
+    width: 240px;
+    top: 282.5px;
+    padding: 10px;
+    text-transform: uppercase;
+    float: right;
+    background: rgb(255, 214, 31);
+}
+img{
+    position: relative;
+    float: left;
+    top:0;
+    width:640px;
+    height: 360px;
+    box-shadow: inset 0 0 11px;
+}
+span{
+    margin-left: 10px;
+}
+.logo-conteiner{
+    float: left;
+    position: relative;
+    box-shadow: none;
+    left: 5px;
+}
+img.logo{
+    position:relative;
+    left: 10px;
+    width: 70px;
+    height: 70px;
+    box-shadow: none;
+
+}
+
